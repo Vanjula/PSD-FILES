@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>FORM </title>
+<style>
+label,input,legend,textarea,select{font-size:30px;}
+label,legend,textarea{color:white;}
+fieldset{border: white solid 2px;}
+body{background : url("bgink3.jpg") fixed no-repeat ;background-size:100% 100%;}
+</style>
+</head>
+<body>
+<h1 style="font-size:40px; color:white;" ><center>APPLICATION DETAILS</center></h1>
+<form action=" vrtq.html" method="post" >
+<fieldset >
+<legend>Personal info</legend><br><br>
+
+<label style="font-size:30px;"> Firstname </label>
+<input type="text" name="textf" maxlength="20" size="30" placeholder="Name" autofocus required><br><br>
+
+<label> Lastname </label>
+<input  style="font-size:30px;" type="text" name="textl" maxlength="20" size="20" placeholder="Initial or Lastname" required><br><br>
+
+<label> Date of Birth </label>
+<input type="datetime-local" name="dob" required><br><br>
+
+<label> Email  id </label>
+<input type="email" name="text" bgcolor="black" placeholder=" xxxxxxx@yyy.com" size="25" required><br><br>
+
+<label>Password </label>
+<input type="password" name="text" placeholder="Password" required><br><br>
+
+<label> Age</label>
+<input type="number" name="number"  size="30"  min="15" max="40" step="1"><br><br>
+
+<label> Gender </label>
+<input type="radio" name="gen" value="m"  checked>
+<label>Male</label>
+<input type="radio" name="gen" value="f" >
+<label>Female</label><br><br>
+
+<label>Nationality </label>
+<input type="text" name="nation" maxlength="20" size="20" placeholder="Indian" ><br><br>
+
+<label> Religion </label>
+<select>
+<option > OC</option>
+<option selected > BC</option>
+<option > MBC</option>
+<option > SC</option>
+<option > ST</option>
+</select><br><br>
+
+<label> Mobile Number </label>
+<input type="text"  name="mobile" maxlength="10" placeholder="+91 " required><br><br>
+
+<label>Address</label><br>
+<textarea style="color:black;" rows="7" cols="25" type="text" name="add" placeholder="Enter Permanent Address " required>
+</textarea><br><br>
+
+<label> Languages known </label>
+<input type="text"  name="ln" placeholder="English" ><br><br>
+
+<label>Interested in </label><br>
+<input type="checkbox" name="int" id="t" value="theory" >
+<label> Theory </label><br>
+<input type="checkbox" name="int" id="prac" value="Practical" >
+<label>Practical Applications</label><br><br>
+
+<label>Hobbies</label>
+<input type="text" name="hobb" placeholder="Eg : Dancing" ><br><br>
+
+<label>Browsers </label><br>
+<input type="text" list="br">
+<datalist id="br">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist><br><br>
+
+
+<label>Range your Ability on Programming</label>
+<input type="range" color:brown;><br><br>
+
+<label>Favourite color </label>
+<input type="color" ><br><br>
+</fieldset><br><br>
+<fieldset>
+<legend>Academic Info</legend><br><br>
+<label>SSLC Mark</label>
+<input type="text"  name="10thm" maxlength="3" required ><br><br>
+
+<label>HSC Mark </label>
+<input type="text"  name="12thm" maxlength="4" required  ><br><br>
+
+<label>Upload your file</label><br>
+<input type="file"  size="10" multiple><br><br>
+
+<label>Interseted in Placement </label>
+<input type ="radio" name="place" value="yes" >
+<label>Yes</label>
+<input type ="radio" name="place" value="no" >
+<label>No</label><br><br>
+
+<label>Photo </label>
+<input type="image"  src="formphoto1.jpg" width="100px" height="100px" tabindex="1"  multiple><br><br>
+
+<label> School Name </label>
+<input type="text"  name="sn" required><br><br>
+
+<label>College Name </label>
+<input type="text" name="cn" value="Kongu Engineering College,Perundurai." size="40"  tabindex="2" readonly><br><br>
+
+<label>College Wedsite link</label>
+<input type="url" value="www.kongu.ac.in" size="23" tabindex="1" disabled><br><br>
+
+<label>Programme</label>
+<input type="radio"  name="pro" value="be"  >
+<label>BE</label>
+<input type="radio" name="pro" value="me">
+<label> ME </label><br><br>
+
+<label>Branch</label>
+<select>
+<option > MECH</option>
+<option selected > CSE</option>
+<option > EEE</option>
+<option > ECE</option>
+<option > EIE</option>
+<option >CIVIL </option>
+<option > AUTO</option>
+<option > AI&DS</option>
+<option > AI&MI</option>
+<option >FT</option>
+<option >CHEM</option>
+</select><br><br>
+
+<label>Programming Languages Known</label>
+<select>
+<option > Java</option>
+<option > Python</option>
+<option > C</option>
+<option > C++</option>
+<option selected > PHP</option>
+<option > Javascript</option>
+<option > Swift</option>
+<option > Go</option>
+<option > Ruby</option>
+<option selected > Perl</option>
+</select><br><br>
+</select><br><br>
+</fieldset>
+
+<fieldset>
+<legend>Course Details</legend>
+<label>Select your course in the following</label>
+<select>
+<option > Data Science</option>
+<option > C Coding</option>
+<option >Python Programming</option>
+<option > Machine Learning</option>
+<option selected > Virual Reality</option>
+<option > Cloud Computing</option>
+<option > Cyber Security</option>
+<option > Block Chain</option>
+<option > Java Programming</option>
+<option selected > C++ language</option>
+</select><br><br>
+
+<label>Choose the course duration</label>
+<select>
+<option > 2 weeks</option>
+<option > 4 weeks</option>
+<option > 8 weeks</option>
+<option > 12 weeks</option>
+<option selected > 16 weeks</option>
+<option > 24 weeks</option>
+<option > 1 year</option>
+<option > 2 year</option>
+</select><br><br>
+</fieldset>
+
+
+<input style="color:black;" type="submit" value="Submit" ><br><br>
+<input style="color:black;" type="reset" value="Reset">
+</form>
+</body>
+
+</html>
